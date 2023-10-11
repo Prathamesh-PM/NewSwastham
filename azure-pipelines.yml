@@ -17,13 +17,7 @@ steps:
   displayName: 'Install Node.js'
 
 
-- task: AzureWebApp@1
-  inputs:
-    azureSubscription: 'Free Trial(3)(eb253cc2-38a8-4f6f-bdf7-d14de91f1ebd)'
-    appType: 'webApp'
-    appName: 'SwasthamWebApp'
-    package: '$(System.DefaultWorkingDirectory)/**/*.zip'
-    deploymentMethod: 'auto'
+
 
 
 - script: |

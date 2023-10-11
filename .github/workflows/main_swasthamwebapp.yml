@@ -52,5 +52,5 @@ jobs:
         with:
           app-name: 'SwasthamWebApp'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_CA0FD551A9544517A5E52649C456D41C }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_49669D4640614930B86EF45E48698EA3 }}
           package: .

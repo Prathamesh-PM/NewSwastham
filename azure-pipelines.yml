@@ -30,9 +30,7 @@ steps:
     appType: 'webApp'
     WebAppName: 'SwasthamWebApp'
     packageForLinux: '$(System.DefaultWorkingDirectory)/**/*.zip'
-- task: NodeTaskRunnerInstaller@0
-  inputs:
-    nodeVersion: '10'
+
 
 - script: |
     npm install
